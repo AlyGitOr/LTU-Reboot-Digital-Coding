@@ -2,15 +2,18 @@ CPD - Continuing Professional Development
 
 
 Date of CPD activity
-11/01/2021
+19/01/2021
 
 CPD activity
-Introduction to Web Development
+Introduction to Web Development (Third Session)
 
 
 What have I learnt?
 
-I learnt about the different positions in web development, like what a front end developer is and does....
+Tools galore day! Learnt to install the various tools required for the course such as GitHub Desktop, VS Code and generally fille
+up my Dev-Toolbox with resouces that will come in useful when learning to code. 
+
+Luke gave us quite a lot to chew on and my task this week is to digest all that was learnt today and make sure I put it to good practice.
 
 
 How did I use this in practice?
@@ -20,4 +23,4 @@ How did I use this in practice?
 
 What did I find hard?
 
-I didn't quiet understand how the internet worked ....
+Catching up as I had connection issues to start with which soon stabilised. Luke was very good in bringing anyone who was stuck back to speed with the rest of the cohort.
