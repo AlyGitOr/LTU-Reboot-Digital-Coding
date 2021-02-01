@@ -2,12 +2,12 @@
 h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    color: blue;
+    color:blue;
   }
   
   h1 {
     font-size: 50px;
-    font-weight: bold;
+    font-weight:bold;
   }
   
   h2 {
@@ -22,6 +22,8 @@ h1, h2, h3 {
   p {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    color: red;
+    color:red;
   }
-/* Your code goes above here */
+  
+  
+  /* Your code goes above here */
