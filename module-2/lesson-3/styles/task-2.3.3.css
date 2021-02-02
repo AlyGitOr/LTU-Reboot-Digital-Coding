@@ -12,10 +12,10 @@ a:link {
   }
   
   a:focus {
-    color: orange;
+    color: #db0fc7;
     font-size: 32px;
   }
   
   a:active {
-    color: pink;
+    color: #08018a;
   }
