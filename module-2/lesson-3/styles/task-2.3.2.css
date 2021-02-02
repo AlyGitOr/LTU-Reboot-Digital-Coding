@@ -1,3 +1,14 @@
 span {
     color: green;
   }
+
+
+  #example-span{
+      background: black;
+      color: white
+  }
+
+  .span-class{
+      background: blue;
+      color: yellow
+  }
