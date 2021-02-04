@@ -1,0 +1,19 @@
+.container {
+
+}
+
+header, main, footer {
+
+}
+
+header {
+  border: 4px solid green;
+}
+
+main {
+  border: 4px dotted red;
+}
+
+footer {
+  border: 4px dashed purple;
+}
