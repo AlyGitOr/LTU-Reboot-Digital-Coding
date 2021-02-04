@@ -1,11 +1,12 @@
 .container {
     padding: 30px;
     max-width:700px;
+    margin:0 auto
 
 }
 
 header, main, footer {
-    background-color: black;
+    padding:20px;
 
 }
 
@@ -15,6 +16,8 @@ header {
 
 main {
   border: 4px dotted red;
+  border-top:none;
+  border-bottom:none;
 }
 
 footer {
