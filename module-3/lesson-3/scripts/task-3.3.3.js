@@ -4,24 +4,24 @@ function isValidNumber(number){
     return !isNaN(number);
 }
 function calculator(number1,number2,operator){
-    strMessage = '';
-    //If number1 is not a number
+    //if number1 is not a number
     if(!isValidNumber(number1)){
-        //end the function here and pass the mesage below
+        //end the function here and pass the message below.
         return 'Argument 1 must be a number';
     }
     //if number 2 is not a number
     if(!isValidNumber(number2)){
+        //end the function here and pass the message below.
         return 'Argument 2 must be a number';
     }
-    //if the operator does not equal +-*/ % 
+    // if the operator does not equal + - * / %
     if(operator != '+' && operator != '-' && operator != '*' && operator != '/' && operator != '%'){
-        //return the message below
+        //end the function here and pass the message below.
         return 'Argument 3 must be an arithmatic operator';
     }
-    //Having passed all of the validation, we need to do the maths
+    //all fo the validation has passed so we need to do maths
     var sum;
-    //based on the operator passed in argument 3 do a different sum
+    //based on the operator passed in argument 3 we will do a different sum
     switch(operator){
         case '+':
             sum = number1 + number2;
@@ -39,10 +39,16 @@ function calculator(number1,number2,operator){
             sum = number1 % number2;
         break;
     }
+    //return the value of the sum
     return sum;
 }
 
-//set the value of the sum to equal whatever 
-sum = calculator(10,10,'%');
-//sum = calculator(10,10,'Alex');
+// set the value of sum to equal whatever is returned from the calculator function
+sum = calculator(10,10,'*');
 console.log(sum);
+
+//Extra code for explanation
+var number = 50;
+var percent = 60;
+percentage = calculator(calculator(number,100,'/'),percent,'*');
+console.log(percentage);
