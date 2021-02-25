@@ -60,17 +60,18 @@ let arrShoppingCart = [
   price:.4
 }];
 
-
+//console.log(arrShoppingCart);
 function getTotalPrice(arrShoppingCart) {
   let total = 0;
   let itemPrice = 0;
   for(var counter=1;counter < arrShoppingCart.length; counter++){
+    //console.log(counter);
     var objItem = arrShoppingCart[counter];
-    console.log(objItem);
+    //console.log(objItem);
     itemPrice = parseFloat(objItem.quantity) * parseFloat(objItem.price);
-    console.log(itemPrice);
+    //console.log(itemPrice);
     total = total + itemPrice;
-    console.log(total);
+    //console.log(total);
         
   }
   return total.toFixed(2);
