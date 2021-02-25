@@ -60,11 +60,21 @@ let arrShoppingCart = [
   price:.4
 }];
 
+/**
+ * Returns x, the total price of the cart (with discounts applied)
+ * @param {array} arrShoppingCart The shopping cart array
+ * @param {object} objCoupon a coupon object
+ * @returns {number} x the total price of the cart with discounts applied
+ */
 function getTotalPrice(arrShoppingCart=[],objCoupon={}){
+  //setting total of the cart to 0 before the loop starts
   let total = 0;
+  //setting the item price to 0 so it isn't redeclared in the loop
   let itemPrice = 0;
+  //loops through each item in the shopping cart array
   for(var counter=0; counter < arrShoppingCart.length; counter++){
     // console.log(counter);
+    //selects the current cart item using the counter as the array key (the index)
     var objItem = arrShoppingCart[counter];
     // console.log(objItem);
     itemPrice = parseFloat(objItem.quantity) * parseFloat(objItem.price);
@@ -86,7 +96,7 @@ function getTotalPrice(arrShoppingCart=[],objCoupon={}){
 let objCoupon = {
   name:'20OFF',
   value:20,
-  category:'food',
+  category:'food',     //Category is food, home or alcohol - matches type
   type:'percentage'
 };
 let cartTotal = getTotalPrice(arrShoppingCart,objCoupon);
