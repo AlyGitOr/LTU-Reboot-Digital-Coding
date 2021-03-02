@@ -1,4 +1,4 @@
-//Prent Default
+//Prent Default, good for stopping form click if failed validation
 var hoverElement = document.querySelector('.preventClick');
 
 function alertBox(event){
